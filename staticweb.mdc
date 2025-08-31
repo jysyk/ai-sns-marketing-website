@@ -1,0 +1,60 @@
+# Cursor AI Project Rules - AI SNS 마케팅 홍보페이지
+
+## 프로젝트 목표
+AI 기반 SNS 마케팅 회사를 위한 원페이지 홍보 웹사이트
+
+## 프로젝트 개ㅑ요
+- **목적**: AI SNS 마케ㅣㅇ 서비스 홍보 및 상담 신청을 위한 단일 페이지 웹사이트
+- **배포**: GitHub Pages 또는 정적 호스팅
+- **구조**: 단순한 단일 폴더 구조
+
+## 기술 스택
+- HTML5, CSS3, Vanilla JavaScript
+- Tailwind.css 사용
+- 반응형 디자인 (모바일 퍼스트)
+
+## 컬러 시스템
+```css
+:root {
+  --primary-dark: #444143;    /* 메인 텍스트 */
+  --primary-medium: #A19E9D;  /* 서브 텍스트 */
+  --primary-light: #E2E2DA;   /* 배경 */
+  --white: #FFFFFF;           /* 순수 배경 */
+  --accent: #DCE8E7;          /* 포인트 컬러 */
+}
+```
+
+## 페이지 구조
+1. **Hero** - 메인 헤드라인, CTA 버튼
+2. **About** - 회사 소개, AI 기술 강점
+3. **Services** - SNS 마케팅 서비스 소개
+4. **Features** - 핵심 기능 및 혜택
+5. **Portfolio** - 성공 사례, 성과 지표
+6. **Contact** - 문의 폼, 연락처
+7. **Footer** - 회사 정보, 링크
+
+## 핵심 규칙
+- **시맨틱 HTML**: `<header>`, `<main>`, `<section>`, `<footer>` 사용
+- **CSS 변수**: 컬러 팔레트를 CSS 변수로 관리
+- **모바일 우선**: 320px부터 데스크톱까지 반응형
+- **성능**: 이미지 최적화, CSS/JS 최소화
+- **접근성**: alt 텍스트, ARIA 레이블 필수
+
+## 디자인 컨셉
+- **미니멀**: 깔끔하고 전문적인 레이아웃
+- **럭셔리**: 고급스러운 실버 톤 활용
+- **신뢰성**: B2B 타겟에 맞는 안정적 디자인
+
+## 파일 구조
+```
+├── index.html
+├── css/main.css
+├── js/main.js
+└── images/
+```
+
+**중요사항**
+## Git 관리 규칙
+- **Git 명령어는 Github mcp를 사용해서 수행합니다**
+## 테스트 규칙
+- **puppeteer mcp를 사용해서 브라우저 상에서 다양한 테스트를 수행합니다**
